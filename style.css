@@ -1,0 +1,96 @@
+h1{
+    font-size: 50px;
+    margin-top: -25px;
+    color:white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+.container{
+    position: relative;
+    
+    margin-top: 10vh;
+    border-radius: 30px 30px 15px 15px;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(38, 37, 37);
+    border-top: 30px solid rgba(170, 167, 167,0.9);
+    
+    
+}
+.btnlist{
+    padding:2px 0px;
+    text-align: center;
+    
+}
+
+.btnlist button{
+   
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 11px;
+    cursor:pointer;
+    height: 70px;
+    width:70px;
+    border: "none";
+    outline: "none";
+    border-radius: 20%;
+    text-align: center;
+    
+
+}
+.btnlist button:hover:not(.eql){
+    background-color: rgb(177, 177, 180);
+}
+.tbox{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    width:350px;
+    margin:0px 0px 30px;
+    border: 2px solid rgb(247, 240, 240);
+    border-radius: 10px;
+}
+.end{
+    position: absolute;
+    bottom: 15px;
+    height: 6px;
+    background-color: aliceblue;
+    width:70%;
+    border-radius: 50%;
+
+}
+.text{
+    
+    position: absolute;
+    padding: 10px;
+    bottom:20px;
+  
+    color: white;
+}
+.eql{
+    background-color: aqua;
+    border: 3px solid orange;
+}
+.color{
+    background-color: rgb(211, 210, 208);
+    border: 3px solid orange;
+}
+/* @media screen and (min-width: 375px) {
+    .btnlist button {
+        height: 40px;
+        width:40px;
+        font-size: 15px;
+    }
+    .tbox{
+        height: 20px;
+        width:250px;
+    }
+  } */
